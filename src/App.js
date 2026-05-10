@@ -18,6 +18,7 @@ function App() {
         <Router>
           <Nav />
           <Routes>
+            <Route path="/" element={<Home />}></Route>
             <Route path="/browse" element={<Browse />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/movie/:imdbID" element={<Movie />}></Route>
