@@ -1,5 +1,6 @@
 import React from "react";
 import MovieImg from '../assets/MovieImg.png'
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -11,10 +12,10 @@ const Nav = () => {
               <img src={MovieImg} className="movieImg" alt="" />
             </li>
             <li className="navLink linkHoverEffect">
-              <a href="/home">Home</a>
+              <Link to="/home">Home</Link>
             </li>
             <li className="navLink linkHoverEffect">
-              <a href="/browse">Find Your Next Movie</a>
+              <Link to="/browse">Find Your Next Movie</Link>
             </li>
             <li className="navLink">
               <button className="navButton">Contact</button>

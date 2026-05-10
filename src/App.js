@@ -20,6 +20,7 @@ function App() {
             <Route path="/browse" element={<Browse />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/movie/:imdbID" element={<Movie />}></Route>
+            <Route path="*" element={<Home />}></Route>
           </Routes>
           <Footer />
         </Router>
