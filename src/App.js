@@ -20,7 +20,7 @@ function App() {
             <Route path="/browse" element={<Browse />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/movie/:imdbID" element={<Movie />}></Route>
-            <Route path="*" element={<Home />}></Route>
+            <Route path="*" element={<p>Page not found</p>}></Route>
           </Routes>
           <Footer />
         </Router>
